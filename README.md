@@ -19,8 +19,6 @@ Proof-of-concept WhatsApp Web bot built with Python and Playwright. The bot auto
 4. **Setup Environment**: Copy `.env.example` to `.env`. You can add your own `GOOGLE_API_KEY` if you prefer but for now a mock one  (that will not work) is written on the example.
 5. **Run the bot**: `py main.py`
 
-On first run, scan the QR code manually. The session will be saved in `session.json` (default) for future use.
-
 ## Configuration
 | Variable | Description |
 | --- | --- |
