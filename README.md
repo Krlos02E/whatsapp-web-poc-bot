@@ -4,7 +4,6 @@ Proof-of-concept WhatsApp Web bot built with Python and Playwright. The bot auto
 
 ## Features
 - **Browser Automation**: Uses Playwright to control a real Chromium instance.
-- **Session Persistence**: Saves login state to avoid scanning the QR code every time.
 - **AI Integration**: Powered by Google Gemini (1.5 Flash) for natural language responses.
 - **Dual Mode Commands**:
   - **System Commands**: Prefixed with `-` (e.g., `/bot -help`, `/bot -ping`).
