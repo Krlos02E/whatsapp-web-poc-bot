@@ -13,7 +13,7 @@ Proof-of-concept WhatsApp Web bot built with Python and Playwright. The bot auto
 - **Docker Ready**: Includes a Dockerfile for containerized deployment.
 
 ## Quickstart
-1. **Setup venv**: Run `python -m venv venv` and then `venv\Scripts\Activate.ps1` on Windows
+1. **Setup venv**: Run `py -m venv venv` and then `venv\Scripts\Activate.ps1` on Windows
 2. **Install dependencies**: `pip install -r requirements.txt`
 3. **Install Playwright browsers**: `playwright install chromium`
 4. **Setup Environment**: Copy `.env.example` to `.env`. You can add your own `GOOGLE_API_KEY` if you prefer but for now a testing one is in use.
@@ -32,6 +32,8 @@ On first run, scan the QR code manually. The session will be saved in `session.j
 | `POLL_INTERVAL` | Seconds between checks for new messages. |
 
 ## Usage Examples
+The bot can answer to chats you reciebe that start with the prefix you set on the `.env` file, as an example the prefix /bot is used. It can also answer as a matter of testing to your own messages with the prefix in the current active chat (the chat actively open in whatsapp web)
+
 ### Commands
 You can define commands that you want the chatbot to respond to, for example:
 - **Help**: `/bot -help`
